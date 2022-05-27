@@ -4,13 +4,13 @@ public class If3 {
 	public static void main(String[] args) {
 
 		// boolean : true, false 로 구분하게 됩니다.
-		boolean ck = true;
-		if (ck = true) {
+	/*	boolean od = true;
+		if (od = true) {
 			System.out.println("회원가입이 진행 됩니다.");
 		}
 		else {
 			System.out.println("이용약관에 동의하셔야만 진행 됩니다.");
-		}
+		}*/
 
 		String id = "park";
 		String pass = "a1234";

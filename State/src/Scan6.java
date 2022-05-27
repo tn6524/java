@@ -12,7 +12,8 @@ public class Scan6 {
 		Scanner mpass = new Scanner(System.in);
 		System.out.println("비밀번호를 입력하세요");
 		String p = mpass.next(); //사용자가 패스워드 입력
-		
+		mid.close();
+		mpass.close();
 		if (m.equals("jung")||m.equals("j1234")) {
 			if (m.equals("su")&&p.equals("ssh"))
 		System.out.println("로그인 되셨습니다");
@@ -26,11 +27,11 @@ public class Scan6 {
 				System.out.println("회원정보를 다시 확인하세요");
 				{	
 						System.out.println("가입되지않은 사용자입니다.");
+						
 				}
 				}
 				{
 }
-		
 	}
 
 
